@@ -114,11 +114,11 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* pSwapChain, UINT SyncInterval, UINT 
 	if (showui)
 	{
 		//Credits
-		//d0p3t | d0p3t#7964, github.com/german-admiral-man
+		//d0p3t | d0p3t#0720, github.com/german-admiral-man
 		//Wayzq | Wayzq#1339, github.com/Wayzq-00001
 		//Juan | Juan.#8888, github.com/Juan0187
 
-		ImGui::Begin("FiveM Mod Menü Base | Made By MoppyX");
+		ImGui::Begin("FiveM Mod MenÃ¼ Base | Made By MoppyX");
 		ImGui::End();
 	}
 
