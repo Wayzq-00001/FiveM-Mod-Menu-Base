@@ -8,7 +8,7 @@
 #include "imgui/imgui_impl_dx11.h"
 
 		//Credits
-		//d0p3t | d0p3t#7964, github.com/german-admiral-man
+		//d0p3t | d0p3t#0720, github.com/german-admiral-man
 		//Wayzq | Wayzq#1339, github.com/Wayzq-00001
 		//Juan | Juan.#8888, github.com/Juan0187
 
