@@ -12,12 +12,7 @@
 #include <d3d11.h>
 #include "functional"
 #include "filesystem"
-#include <d3d11.h>
-#include <Windows.h>
-#include <string>
-#include <iostream>
 #include <Wininet.h>
-#include <string>
 #include <io.h>
 #include "font_awesome.cpp"
 #include "imgui/imgui_internal.h"
