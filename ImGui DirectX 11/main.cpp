@@ -1,22 +1,5 @@
 #include "includes.h"
 
-#include <Windows.h>
-#include <string>
-#include <iostream>
-#include <fstream>
-#include <direct.h>
-#include <random>
-#include <regex>
-#include <stdio.h>
-#include <stdlib.h>
-#include <d3d11.h>
-#include "functional"
-#include "filesystem"
-#include <Wininet.h>
-#include <io.h>
-#include "font_awesome.cpp"
-#include "imgui/imgui_internal.h"
-
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
 Present oPresent;
@@ -93,7 +76,6 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* pSwapChain, UINT SyncInterval, UINT 
 
 	if (GetAsyncKeyState(VK_INSERT) & 1) {
 		showui = !showui;
-		//getlocl();
 		return 0;
 	}
 
